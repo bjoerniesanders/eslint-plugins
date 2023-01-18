@@ -24,6 +24,11 @@
   },
   "author": "Bjoern Sanders",
   "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "bugs": {
     "url": "https://github.com/bjoerniesanders/eslint-plugins/issues"
   },
