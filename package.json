@@ -1,5 +1,5 @@
 {
-  "name": "@bsanders/eslint-plugins",
+  "name": "@bsand/eslint-plugins",
   "version": "1.0.0",
   "description": "First Eslint Plugin to prevent critical time functions of javascript",
   "main": "src/index.ts",
