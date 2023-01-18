@@ -5,5 +5,5 @@ module.exports = {
     extends: ["eslint:recommended"],
     plugins: [],
     rules: {},
-    ignorePatterns: ['.eslintrc.js',]
+    ignorePatterns: ['.eslintrc.js', 'jest.config.js']
   };
