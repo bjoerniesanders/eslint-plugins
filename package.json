@@ -1,6 +1,6 @@
 {
-  "name": "@bsand/eslint-plugin",
-  "version": "0.0.5",
+  "name": "@bsand/eslint-plugin-time-functions",
+  "version": "0.0.2",
   "description": "Eslint Plugin to prevent critical time functions of javascript",
   "main": "lib/index.js",
   "dependencies": {
