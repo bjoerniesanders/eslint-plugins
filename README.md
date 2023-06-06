@@ -1,12 +1,8 @@
 # ESLint Plugin: No Restricted Time Functions
 
-This ESLint plugin aids in avoiding potential timezone-related issues in JavaScript applications. A number of JavaScript's built-in time functions such as `endOfDay` or `endOfMonth` operate on the local timezone. If your application server is in a different timezone than your users, this could potentially lead to bugs. 
+This ESLint plugin aids in avoiding potential timezone-related issues in JavaScript applications when using date-fns library. Some functions such as endOfDay or endOfMonth from date-fns operate on the local timezone. If your application server resides in a different timezone than your users, it could potentially lead to bugs.
 
 This plugin provides ESLint rules to highlight the usage of such functions and encourages developers to consider the implications of timezones in their applications.
-
-<p align="center">
-    <img src="YOUR_IMAGE_LINK" width="600" max-width="90%" alt="No Restricted Time Functions" />
-</p>
 
 ## :wrench: Installation
 
@@ -26,7 +22,7 @@ After installation, you can configure this plugin in your ESLint configuration f
 
 ## :books: Solution 
 
-For handling timezone-sensitive functions, consider utilizing timezone-aware methods or libraries. For example, [here's a solution](https://stackoverflow.com/questions/67819591/how-to-use-startofday-from-date-fns-with-timezones/72372517#72372517) provided on Stack Overflow.
+For handling timezone-sensitive functions, consider utilizing timezone-aware methods or libraries. For example, [here's a solution](https://stackoverflow.com/questions/67819591/how-to-use-startofday-from-date-fns-with-timezones/72372517#72372517) provided on Stack Overflow for using date-fns with timezones.
 
 ## :handshake: Contributing
 
